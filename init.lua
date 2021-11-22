@@ -1,1 +1,1 @@
-
+--waystones = {}
