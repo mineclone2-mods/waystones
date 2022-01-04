@@ -15,6 +15,21 @@ dofile(modpath.."/crafting.lua")
 waystones.register_waystone("andesite", {
 	description = S("Waystone"),
 	_doc_items_longdesc = S("longdesc"),
+	inventory = "default_stone.png",
+	tiles = {"waystones_waystone_andesite.png"},
+})
+
+waystones.register_waystone("mossy", {
+	description = S("Mossy Waystone"),
+	_doc_items_longdesc = S("longdesc"),
+	inventory = "default_stone.png",
+	tiles = {"waystones_waystone_andesite.png"},
+})
+
+waystones.register_waystone("sandy", {
+	description = S("Sandy Waystone"),
+	_doc_items_longdesc = S("longdesc"),
+	inventory = "default_stone.png",
 	tiles = {"waystones_waystone_andesite.png"},
 })
 
