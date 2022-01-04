@@ -16,6 +16,7 @@ local default_waystone_bottom_def = {
 			{-0.3125, 0.0625, -0.3125, 0.3125, 0.5, 0.3125},
 		},
 	},
+	sounds = mcl_sounds.node_sound_stone_defaults(),
 }
 
 local default_waystone_top_def = {
@@ -35,6 +36,7 @@ local default_waystone_top_def = {
 			{-0.25, 0.375, -0.25, 0.25, 0.5, 0.25},
 		}
 	},
+	sounds = mcl_sounds.node_sound_stone_defaults(),
 }
 
 function waystones.register_waystone(name, def)
