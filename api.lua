@@ -1,4 +1,4 @@
-local S = minetest.get_translator("waystones")
+--local S = minetest.get_translator("waystones")
 
 local default_waystone_bottom_def = {
 	--description = S("Waystone"),
