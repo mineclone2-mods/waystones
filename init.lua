@@ -8,7 +8,9 @@ mcl_item_id.set_mod_namespace("waystones", "waystones")
 
 waystones = {}
 
-dofile(modpath.."/api.lua")
+dofile(modpath.."/api_names.lua")
+dofile(modpath.."/api_waystones.lua")
+dofile(modpath.."/api_register.lua")
 dofile(modpath.."/items/warp_stone.lua")
 dofile(modpath.."/crafting.lua")
 

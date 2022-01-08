@@ -1,0 +1,8 @@
+#    Name generation mode.
+#    default: preset_first
+waystones.name_generation_mode (Name Generation Mode) enum preset_first mixed,random_only,preset_only,preset_first
+
+#    Custom waystone names.
+#    Will be used then generation mode is set to mixed
+#    In json format
+waystones.custom_waystone_names (Custom Waystones Names) string "[]"
