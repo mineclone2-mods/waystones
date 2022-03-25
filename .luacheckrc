@@ -103,8 +103,7 @@ read_globals = {
 	"mcl_wieldview", "playerphysics",
 
 	--------------------------------------------
-	-- PALAMOD
+	-- MINECLONE2 MODS
 	--------------------------------------------
-	-- OPTIONAL DEPENDS
-	"db_manager", "mc_economy", "mc_faction",
+	"modname_tooltip",
 }

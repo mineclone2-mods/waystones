@@ -2,9 +2,15 @@ minetest.log("action", "[waystones] loading...")
 
 local modpath = minetest.get_modpath("waystones")
 
+local has_modname_tooltip = minetest.get_modpath("modname_tooltip")
+
 local S = minetest.get_translator("waystones")
 
 mcl_item_id.set_mod_namespace("waystones", "waystones")
+
+if has_modname_tooltip then
+	modname_tooltip.set_mod_title("waystones", "Waystones")
+end
 
 waystones = {}
 
