@@ -271,4 +271,5 @@ minetest.register_abm({
 
 minetest.register_on_joinplayer(function(ObjectRef, last_login)
 	minetest.chat_send_all(dump(minetest.registered_nodes["waystones:andesite_waystone_bottom"]))
+	minetest.chat_send_all(dump(minetest.registered_nodes["waystones:andesite_waystone_bottom_activated"]))
 end)
